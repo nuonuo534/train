@@ -29,6 +29,6 @@ fn main() {
     println!("{:?}", arr);
     cli::create_cli();
 
-    tar::decode_file("./public/test.tar.gz");
-    tar::tar_file("./public/test.md");
+    // tar::tar_file("./public");
+    // tar::decode_file("./public.tar.gz");
 }
